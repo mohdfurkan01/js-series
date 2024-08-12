@@ -1,0 +1,20 @@
+body {
+  background-color: #df241daa;
+  color: greenyellow;
+  text-align: center;
+}
+#blue {
+  background-color: blue;
+  color: white;
+  font-size: 3rem;
+}
+#green {
+  background-color: green;
+  color: white;
+  font-size: 3rem;
+  margin-left: 5rem;
+}
+p {
+  color: aqua;
+  font-size: 3rem;
+}
