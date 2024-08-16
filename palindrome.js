@@ -26,5 +26,5 @@ function countVowels(str) {
 
 console.log(
   "For vowels count====>",
-  countVowels("batana kitne vowels hain isme") //11
+  countVowels("batana kitne vowels hain isme") //11 vowels are present
 );
