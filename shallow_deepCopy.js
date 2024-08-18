@@ -1,3 +1,7 @@
+//*  Shallow Copy: It only copies the reference. Both the original and the copy point to the same memory location.
+
+//* Deep Copy: It copies the actual data, placing it in a different memory location. The original and the copy hold separate data.
+
 //!shallow copy
 let a = [12, 13];
 let b = a;
