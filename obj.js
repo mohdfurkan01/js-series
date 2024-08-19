@@ -18,7 +18,7 @@ let actor = {
 
 console.log("object ka console h", actor);
 
-actor.profession = "kuch aur maan lo";
+actor.profession = "we will think about it";
 
 delete actor.city;
 //console.log(" Check karo ke `city` property delete hui ya nahi", actor);
