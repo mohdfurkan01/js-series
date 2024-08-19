@@ -24,7 +24,7 @@ delete actor.city;
 //console.log(" Check karo ke `city` property delete hui ya nahi", actor);
 
 //* Checking if a Property Exists:
-//* Sometimes, you might want to check if a certain property exists in your object:
+//* Sometimes, we want to check if a certain property exists in our object:
 
 if ("crush" in actor) {
   console.log("Crush mil gayi!");
