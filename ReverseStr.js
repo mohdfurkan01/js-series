@@ -7,3 +7,6 @@ for (let i = 1; i <= myStr.length; i++) {
   reversedStr += myStr.at(-i);
 }
 console.log(reversedStr); // Output: "olleH"
+
+let anotherStr = myStr.charCodeAt(); //"H" has a Unicode value of 72.
+console.log(anotherStr);
