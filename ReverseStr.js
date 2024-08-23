@@ -28,7 +28,7 @@ let str1 = "Hello";
 console.log(str1.at(1)); // Output: "e"
 console.log(str1.at(-1)); // Output: "o"  (Last character)
 console.log(str1.at(-2)); // Output: "l"
-console.log(str1.at(10)); // Output: undefined (Out of bounds)
+console.log(str1.at(12)); // Output: undefined (Out of bounds)
 
 //TODO=> Key Differences:
 //* Negative Indexes: charAt() doesn't support negative indexes, while at() does.
