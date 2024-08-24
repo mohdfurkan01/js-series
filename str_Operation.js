@@ -61,3 +61,7 @@ console.log(chars[8]); // Access the 9th character (index 8)
 
 // Why Not Remove the Characters:
 // The characters in the regex [,. ;] are not removed from the string; rather, they are used as boundaries to split the string. This is why you need to include them in the regex even if they are present in the string.
+
+let firstStr = "Hello Developer";
+let secondStr = firstStr.slice(0, 9);
+console.log("============>", secondStr);
