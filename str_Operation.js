@@ -66,8 +66,8 @@ let firstStr = "Hello Developer";
 let secondStr = firstStr.slice(0, 9);
 console.log("============>", secondStr);
 
-let thirdStr = firstStr.concat(secondStr);
-console.log("===============>", thirdStr); //*output Hello DeveloperHello Dev
+// let thirdStr = firstStr.concat(secondStr);
+// console.log("===============>", thirdStr); //*output Hello DeveloperHello Dev
 
-// let thirdStr = firstStr.concat(` & ${secondStr}  `); //*output Hello Developer & Hello Dev
-// console.log(thirdStr); //better readablity
+let thirdStr = firstStr.concat(` & ${secondStr}  `); //*output Hello Developer & Hello Dev
+console.log("===============>", thirdStr); //better readablity
