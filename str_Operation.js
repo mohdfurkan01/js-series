@@ -70,4 +70,4 @@ console.log("============>", secondStr);
 // console.log("===============>", thirdStr); //*output Hello DeveloperHello Dev
 
 let thirdStr = firstStr.concat(` & ${secondStr}  `); //*output Hello Developer & Hello Dev
-console.log("===============>", thirdStr); //better readablity
+console.log("===============>thirdStr", thirdStr); //better readablity
