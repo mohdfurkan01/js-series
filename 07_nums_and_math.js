@@ -14,6 +14,6 @@ console.log("=================MIN", min_value); //5e-324
 const max_value = Number.MAX_VALUE;
 console.log("=================MAX", max_value); //1.7976931348623157e+308
 
-console.log("@@@@@@@@@@@@@@@@@@@@@", Number);
-console.log("@@@@@@@@@@@@@@@@@@@@@", Math.SQRT1);
+console.log("@@@@@@@@@@@@@@@@@@@@@", Number());
+console.log("@@@@@@@@@@@@@@@@@@@@@", Math.SQRT2);
 //type Math in console then it will give us more property and also NUmber
