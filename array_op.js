@@ -1,6 +1,6 @@
-const basic_Arr = [0, 1, 2, 3, 4, 5];
+const basic_Arr1 = [0, 1, 2, 3, 4, 5];
 
-console.log("A ", basic_Arr); // A  [ 0, 1, 2, 3, 4, 5 ]
+console.log("A ", basic_Arr1); // A  [ 0, 1, 2, 3, 4, 5 ]
 
 //! slice Method:
 //? Purpose: Extracts a portion of the array without modifying the original array.
@@ -10,10 +10,10 @@ console.log("A ", basic_Arr); // A  [ 0, 1, 2, 3, 4, 5 ]
 //* It stops before endIndex (so, endIndex is not included).
 //* Result: Returns a new array with the extracted elements.
 //* Original Array: Stays unchanged.
-const myn1 = basic_Arr.slice(1, 3); // exclude last range
+const myn1 = basic_Arr1.slice(1, 3); // exclude last range
 console.log(myn1); // [ 1, 2 ]
 
-console.log("B ", basic_Arr); // B  [ 0, 1, 2, 3, 4, 5 ]
+console.log("B ", basic_Arr1); // B  [ 0, 1, 2, 3, 4, 5 ]
 
 //! splice Method:
 //? Purpose: Changes the original array by removing or replacing elements.
@@ -23,8 +23,8 @@ console.log("B ", basic_Arr); // B  [ 0, 1, 2, 3, 4, 5 ]
 //* Removes deleteCount number of elements from the original array.
 //* Result: Returns a new array containing the removed elements.
 //* Original Array: Gets modified.
-const myn2 = basic_Arr.splice(1, 3);
-console.log("C ", basic_Arr); // C  [ 0, 4, 5 ]
+const myn2 = basic_Arr1.splice(1, 3);
+console.log("C ", basic_Arr1); // C  [ 0, 4, 5 ]
 console.log(myn2); // [ 1, 2, 3 ] include last range
 
 //! slice: Copies elements, doesn't modify the original array.
