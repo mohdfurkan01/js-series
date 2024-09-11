@@ -18,3 +18,13 @@ let gfDetails = {
 console.log(gfDetails.name.firstCrushName);
 console.log(gfDetails.name);
 gfDetails.myMethod();
+
+//? IIFE
+(function () {
+  console.log("Normal function IIFE");
+})();
+
+//Arrow IIFE
+(() => {
+  console.log("arrow finction IIFE");
+})();
