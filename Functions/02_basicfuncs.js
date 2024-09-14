@@ -39,3 +39,23 @@ function showDashboard() {
 function showLoginScreen() {
   console.log("Please log in.");
 }
+
+const myCoding = [
+  {
+    languageName: "javaScript",
+    fileExtension: "js",
+  },
+  {
+    languageName: "Typescript",
+    fileExtension: "ts",
+  },
+  {
+    languageName: "python",
+    fileExtension: "py",
+  },
+];
+
+myCoding.forEach((item) => {
+  console.log(item); //access of obj{}
+  console.log(item.languageName); //access of properties
+});
