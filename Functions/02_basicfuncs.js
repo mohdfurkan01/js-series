@@ -26,6 +26,11 @@ gfDetails.myMethod();
 
 //Arrow IIFE
 (() => {
+  str1 = "()()";
+  str2 = "())(";
+  if (str1 == str2) {
+    console.log("String are ");
+  }
   console.log("arrow finction IIFE");
 })();
 
