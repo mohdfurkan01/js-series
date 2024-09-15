@@ -9,7 +9,7 @@ let gfDetails = {
     pallaviAge: 23,
     KhalessiAge: 24,
     rashmikaAge: 25,
-    salinAge: 26,
+    salinaAge: 26,
   },
   myMethod() {
     console.log("All are accepted");
