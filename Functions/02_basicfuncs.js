@@ -25,14 +25,7 @@ gfDetails.myMethod();
 })();
 
 //Arrow IIFE
-(() => {
-  str1 = "()()";
-  str2 = "())(";
-  if (str1 == str2) {
-    console.log("String are ");
-  }
-  console.log("arrow finction IIFE");
-})();
+(() => {})();
 
 const isLoggedIn = true;
 isLoggedIn ? showDashboard() : showLoginScreen();
@@ -64,3 +57,10 @@ myCoding.forEach((item) => {
   console.log(item); //access of obj{}
   console.log(item.languageName); //access of properties
 });
+
+str1 = "()()";
+str2 = "())(";
+if (str1 == str2) {
+  console.log("String are ");
+}
+console.log("arrow finction IIFE");
