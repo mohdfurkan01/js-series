@@ -58,9 +58,9 @@ myCoding.forEach((item) => {
   console.log(item.languageName); //access of properties
 });
 
-str1 = "()()";
-str2 = "())(";
-if (str1 == str2) {
-  console.log("String are ");
-}
-console.log("arrow finction IIFE");
+// str1 = "()()";
+// str2 = "())(";
+// if (str1 == str2) {
+//   console.log("String are ");
+// }
+// console.log("arrow finction IIFE");
