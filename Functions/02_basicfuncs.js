@@ -25,7 +25,9 @@ gfDetails.myMethod();
 })();
 
 //Arrow IIFE
-(() => {})();
+(() => {
+  console.log("arrow finction IIFE");
+})();
 
 const isLoggedIn = true;
 isLoggedIn ? showDashboard() : showLoginScreen();
@@ -65,4 +67,3 @@ if (str1 == str2) {
 } else {
   console.log("Not");
 }
-console.log("arrow finction IIFE");
